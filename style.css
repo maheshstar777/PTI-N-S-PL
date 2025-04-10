@@ -1,0 +1,291 @@
+
+.content
+{
+    margin: 7px;
+    color: white;
+    padding: 0px;
+
+}
+.logo{
+    height: 65px;
+    width: 65px;
+    margin-top: 7px;
+}
+.header
+{
+    background: linear-gradient(to bottom, #00008B 0%, #191970 100%);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.company-name
+{
+    display: inline;
+    position: relative;
+    bottom: 15px;
+    font-family: oswald;
+    color: white;
+}
+.navigations
+{
+    float: right;
+    display: inline;
+    position: relative;
+    top: 7px;
+}
+.navigation
+{
+    display: inline-block;
+    top: 7px;
+    margin-right: 20px;
+    font-family:roboto;
+    color: white;
+    font-size:x-large;
+}
+.headline
+{
+    font-family: roboto;
+    display: block;
+}
+.sub-headline
+{
+    font-family: roboto;
+}
+.footer
+{
+    background-color: #555555;
+    border-radius: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+.footer-1
+{
+    display: flex;
+    justify-content: space-around;
+}
+.footers-1
+{
+    font-family: roboto;
+    color:white;
+    display: inline-block;
+}
+.footer-2
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-images
+{
+    height: 40px;
+    width: 40px;
+}
+.about-content
+{
+    font-family: roboto;
+}
+.index-content
+{
+    font-family: roboto;
+}
+.whole-para{
+    font-size: x-large;
+}
+.headings
+{
+    background-color:#8a7f80;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.headings-about
+{
+    padding-left: 10px;
+}
+.order-content
+{
+    color: white;
+}
+.about-content{
+    color: white;
+}
+.contact-content
+{
+    color:white;
+}
+.para
+{
+    margin-left: 30px;
+    background-color: peachpuff;
+    color: black;
+}
+.snack
+{   
+    flex: 1; 
+    height: 100%;
+    width: 100%;
+    display: block;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin: 0px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    min-height: 250px;
+    background: linear-gradient(to bottom, peachpuff, white);
+    ;
+    color: black;
+}
+.snack > .headings
+{
+    color: white;
+    padding: 10px;
+}
+.snack > .para
+{
+    background-color: transparent;
+}
+.bake
+{
+    flex:1;
+    height: 100%;
+    width: 100%;
+    display:block;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin: 0px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    min-height: 250px;
+    background: linear-gradient(to bottom, peachpuff, white);
+    color: black;
+}
+.bake > .headings
+{
+    color: white;
+    padding: 10px;
+}
+.bake > .para
+{
+    background-color: transparent;
+}
+.prep
+{
+    flex: 1; 
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin: 0px;
+    box-sizing: border-box;
+    min-height: 250px;
+    background: linear-gradient(to bottom, peachpuff, white);
+    color: black;
+}
+.prep > .headings
+{
+    color: white;
+    padding: 10px;
+}
+.prep > .para
+{
+    background-color: transparent;
+}
+.chill
+{
+    flex: 1; 
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 0px;
+    min-height: 250px;
+    background: linear-gradient(to bottom, peachpuff, white);
+    color: black;
+}
+.chill > .headings
+{
+    color: white;
+    padding: 10px;
+}
+.chill > .para
+{
+    background-color: transparent;
+}
+.snack-and-bake
+{
+    display: flex;
+    gap: 10px;
+}
+.prep-and-chill
+{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.choose-pti > .headings
+{
+   margin: 20px;
+}
+.choose-pti > .para
+{
+    margin: 45px;
+}
+#pti-para1
+{
+    margin: 25px;
+    background-color: #191970;
+    color: white;
+}
+#choose
+{
+  margin-left: 0px;
+  background: linear-gradient(to bottom, #00008B 0%, #191970 100%);
+}
+.choose-pti > div
+{
+    background: linear-gradient(to bottom, peachpuff, white);
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+}
+.choose-pti > div > .para
+{
+    background-color: transparent;
+}
+.button
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#button
+{
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    font-size: x-large;
+    border-radius: 20px;
+    color: blue;
+}
+#button:hover
+{
+    background-color: whitesmoke;
+}
+.quote
+{
+    background: linear-gradient(to bottom, #00008B 0%, #191970 100%);
+}
+.para-quote-1
+{
+    background-color: #191970;
+    color: white;
+}
